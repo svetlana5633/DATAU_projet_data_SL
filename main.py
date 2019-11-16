@@ -107,6 +107,7 @@ def read_csv(csv_uri, sep):
     compare_df_gain(csv_uri, sep, df)
 
 
+
 if __name__ == '__main__':
     pd.set_option('display.max_columns', None)
     read_csv(
