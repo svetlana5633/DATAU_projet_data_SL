@@ -106,8 +106,9 @@ def read_csv(csv_uri, sep):
     # compare the gain with the original df w/o optimization
     compare_df_gain(csv_uri, sep, df)
 
-
-
+    toto = 5
+    print(toto)
+    
 if __name__ == '__main__':
     pd.set_option('display.max_columns', None)
     read_csv(
