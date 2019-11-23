@@ -92,6 +92,11 @@ def read_csv(csv_uri, sep):
         }
     )
 
+
+
+
+
+
     # Drop useless rows if `latitude` or `longitude` is NaN
     df = df.dropna(subset=['latitude', 'longitude'])
     # reformat all headers columns name
@@ -108,6 +113,7 @@ def read_csv(csv_uri, sep):
 
     toto = 5
     print(toto)
+
 if __name__ == '__main__':
     pd.set_option('display.max_columns', None)
     read_csv(
